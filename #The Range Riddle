@@ -1,0 +1,10 @@
+#Task 1: Your Mood Today
+import random
+
+moods = ["Happy", "Sad", "Energetic", "Calm"]
+days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+
+for mood in moods: 
+    for day in random.choices(days):
+        range(1)
+        print(f"On {day} you were feeling {mood}") 
